@@ -1,0 +1,155 @@
+@font-face{
+	font-family: ;
+	src: url();
+}
+@font-face{
+	font-family: ;
+	src: url();
+}
+@font-face{
+	font-family: ;
+	src: url();
+}
+@font-face{
+	font-family: ;
+	src: url();
+}
+   					/*///RESET CSS///*/
+:root{
+	font-size: 16px;
+	font-family:Helvetica,Arial,sans-serif;
+	line-height: 1; 
+}
+html,body{
+	height: 100%;
+}
+footer,aside,header,
+nav,article,menu,
+figure,section,picture,
+video,audio{
+	display: block;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: 0;
+}
+
+a{
+	display: block;
+	cursor: pointer;
+	color: inherit;
+	font-family: inherit;
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 100%;
+}
+.button,.btn{
+	cursor: pointer;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.wrapper{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #0d1117;
+}
+.container{
+	margin: 0 auto; 
+	width:100%;
+	height: 100%;
+	max-width: 80%;
+	padding-top: 50px;
+	position: relative;
+}
+						/*\\\RESET CSS\\\*/
+h1{
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 50px;
+  color: #FFFFFF;
+  /*background: #232323;*/
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+textarea{
+	background-color: #161b22;
+	color: #fff;
+	padding: 20px;
+	border: 1px solid #607593;
+	font-family: Roboto;
+	width: 70%;
+}
+textarea:focus{
+	outline: none;
+}
+.btn_start{
+	position: absolute;
+  box-shadow: 3px 3px 3px  #000;
+	left: calc(70% - 60px);
+	top: 145px;
+	color: #fff;
+	width: 70px;
+	height: 30px;
+	background: green;
+}
+.dive{
+	max-width: 70%;
+	height: 400px;
+	background: #000;
+	margin-top: 50px;
+	border: 3px solid #b0c6e5;
+	border-top: 20px solid #b0c6e5;
+	color: #36c43e;
+	padding: 20px;
+	position: relative;
+}
+.btn_clear{
+	background: red;
+	position: absolute;
+	bottom: -15px;
+	right: -13px;
+	box-shadow: 3px 3px 3px  #000;
+	color: #fff;
+	width: 70px;
+	height: 30px;
+}
+
+
+   					/* ///MEDIA QUERY/// */
+
+@media(max-width: 782px){
+
+}
+
+/* ///////// */
+@media(min-width: 783px) and (max-width: 900px){
+
+}
+
+/* ///////// */
+@media(min-width: 901px) and (max-width: 1199px){
+
+}
+
+/* ///////// */
+@media(min-width: 1200px){
+
+}  					
+ 					
