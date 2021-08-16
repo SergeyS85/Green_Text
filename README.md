@@ -1,2 +1,5 @@
-# Green_Text
-Type green textвыаыфваваы
+# Green_Text Описание
+Обычная ничего не делающая програмка, вводишь текст в textarea, ниже выводится побуквенно зелёный текст.
+
+![изображение](https://user-images.githubusercontent.com/67606183/129559391-a3d30551-8c87-4275-b280-a35287a1c4b0.png)
+
